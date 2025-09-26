@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 600,
   "height": 605,
+  "background": "skyblue",
   "title": {
     "text": "Team's Progresses in AFC Asian Cup 2023",
     "anchor": "start",
@@ -71,3 +72,4 @@
     ]
   }
 }
+
