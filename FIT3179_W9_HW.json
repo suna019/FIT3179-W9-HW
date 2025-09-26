@@ -1,18 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
-  "height": 605,
+  "width": 645,
+  "height": 500,
   "background": "skyblue",
-  "title": {
-    "text": "Team's Progresses in AFC Asian Cup 2023",
-    "anchor": "start",
-    "fontSize": 16,
-    "offset": -90
-  },
   "autosize": {"type": "fit", "contains": "padding"},
   "projection": {
     "type": "equirectangular",
-    "center": [100, 30],
+    "center": [100, 10],
     "scale": 220
   },
   "data": {
@@ -51,13 +45,13 @@
           "Winner"
         ],
         "range": [
-          "Lightgray",
+          "grey",
           "red",
           "orange",
-          "lightblue",
+          "lightgreen",
           "saddlebrown",
           "silver",
-          "gold"
+          "Yellow"
         ]
       },
       "legend": {
@@ -72,4 +66,3 @@
     ]
   }
 }
-
